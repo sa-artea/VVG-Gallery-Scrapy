@@ -35,7 +35,7 @@ for the 2020/2021 project of the Uniandes Digital Humanities graduate program.
 
 ## **Development Enviroment**
 
-#TODO
+#TODO add IDE version, pyliter, python version, bs4, Selenium, pandas + links
 
 ---
 
