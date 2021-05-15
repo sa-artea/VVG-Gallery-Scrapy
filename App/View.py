@@ -87,8 +87,8 @@ bfn = CFG_DATA_APP.get("ExportFiles", "basicfile")
 fext = CFG_DATA_APP.get("ExportFiles", "fext")
 
 # change according to the request in the .INI!!!!
-fsize = CFG_DATA_APP.get("ExportFiles", "small")
-# fsize = CFG_DATA_APP.get("ExportFiles", "large")
+# fsize = CFG_DATA_APP.get("ExportFiles", "small")
+fsize = CFG_DATA_APP.get("ExportFiles", "large")
 # fsize = CFG_DATA_APP.get("ExportFiles", "extensive")
 
 expf = bfn + fsize + "." + fext
