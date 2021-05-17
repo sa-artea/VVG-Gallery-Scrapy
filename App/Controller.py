@@ -591,23 +591,17 @@ class Controller ():
             div = args[1]
             attrs = args[2]
             elem = args[3]
-            # print("in obj-data function!!!")
             for url in self.getdata(coln):
 
-                # print("to scrap data!...")
                 tsoup = gm.scrape(url, div, attrs, **kwargs)
-                # print("to clean data!")
                 tans = gm.clean_objdata(tsoup, elem)
 
                 # compose answer
-                # print("exporting to JSON!!!...")
                 tans = self.to_json(tans)
                 ans.append(tans)
                 time.sleep(DEFAULT_SLEEP_TIME)
 
             # returning answer
-
-            # print("returning answwer!!!!")
             return ans
 
         # exception handling
